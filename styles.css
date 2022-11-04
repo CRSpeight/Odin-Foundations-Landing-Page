@@ -7,6 +7,12 @@
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin: 0;
+}
+
+.heroSecondaryText{
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 li{
@@ -33,7 +39,8 @@ a:link, a:visited{
 
 .heroContainer{
     display: flex;
-    padding-bottom: 50px;
+    padding: 50px 0;
+    gap: 10px;
 }
 
 .signUp{
@@ -54,6 +61,9 @@ body{
     width: 50%;
     background-color: grey;
     color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button{
@@ -63,8 +73,50 @@ button{
     border-radius: 8px;
     border: none;
 }
-.imgPlaceholder{
-    width: 50%;
-    background-color: grey;
 
+.randomImgPlaceholder{
+    height: 100px;
+    width: 100px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    text-align: center;
+}
+
+.parentPlaceholderContainer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.placeholderContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.quote{
+    margin-top: 50px;
+    background-color: #E5E7EB;
+    padding: 7vh 60vh;
+}
+quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 100;
+}
+.signature{
+    font-weight: bold;
+    text-align: right;
 }
